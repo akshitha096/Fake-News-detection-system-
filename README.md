@@ -30,7 +30,6 @@ The project uses the **NSL-KDD dataset** and provides a graphical user interface
 ### Prerequisites
 
 To run the project, ensure you have Python installed and the following libraries:
-
 ```bash
 pip install tkinter
 pip install scikit-learn
@@ -40,13 +39,13 @@ pip install pandas
 pip install numpy
 Run the Application
 
-Upload the Dataset: Click the "Upload NSL KDD Dataset" button to load the dataset (NSL-KDD or any compatible dataset).
-Preprocess the Data: Click the "Preprocess Dataset" button to clean the dataset and remove non-numeric values.
-Generate the Training Model: Click the "Generate Training Model" button to split the dataset into training and testing sets.
-Run SVM or ANN Algorithm: Click either the "Run SVM Algorithm" or "Run ANN Algorithm" button to train and evaluate the models.
-Detect Attacks: Upload a test dataset and click the "Upload Test Data & Detect Attack" button to make predictions.
-View Accuracy Graph: Click the "Accuracy Graph" button to see a comparison of the accuracies of both models (SVM vs ANN).
-Files in the Repository
+****Upload the Dataset**** : Click the "Upload NSL KDD Dataset" button to load the dataset (NSL-KDD or any compatible dataset).
+**Preprocess the Data**: Click the "Preprocess Dataset" button to clean the dataset and remove non-numeric values.
+**Generate the Training Model**: Click the "Generate Training Model" button to split the dataset into training and testing sets.
+**Run SVM or ANN Algorithm**: Click either the "Run SVM Algorithm" or "Run ANN Algorithm" button to train and evaluate the models.
+**Detect Attacks**: Upload a test dataset and click the "Upload Test Data & Detect Attack" button to make predictions.
+**View Accuracy Graph**: Click the "Accuracy Graph" button to see a comparison of the accuracies of both models (SVM vs ANN).
+**Files in the Repository**
 main.py: The main script containing the entire program.
 clean.txt: The cleaned dataset (after preprocessing).
 README.md: This file.
